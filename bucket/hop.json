@@ -1,0 +1,25 @@
+{
+    "version": "0.1.5",
+    "description": "An iPhone-style island at the top of your screen and an instant F8 clipper.",
+    "homepage": "https://gethop.lol",
+    "license": "MIT",
+    "url": "https://github.com/preinfection/hop/releases/download/v0.1.5/HopSetup-0.1.5.exe",
+    "hash": "0e1b67742414ff9961b1007b110d33abbbb2871083aff5e8c1eec08e59b44d36",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Island\\HopIsland.exe",
+            "Hop Island"
+        ],
+        [
+            "Clipper\\HopClipper.exe",
+            "Hop Clipper"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/preinfection/hop"
+    },
+    "autoupdate": {
+        "url": "https://github.com/preinfection/hop/releases/download/v$version/HopSetup-$version.exe"
+    }
+}
